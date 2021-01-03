@@ -21,8 +21,8 @@ body{
     background-color: var(--dark-cyan);
     background-image: url("images/bg-pattern-top.svg"),
                       url("images/bg-pattern-bottom.svg");
-    background-position: left calc(100% - 52vw) top calc(90% + -40vh),
-                         right calc(100% - 52vw) bottom calc(100% + -51vh);
+    background-position: left calc(100% - 53vw) top calc(90% + -40vh),
+                         right calc(100% - 52vw) bottom calc(100% + -48vh);
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
@@ -34,6 +34,7 @@ body{
     text-align: center;
     background-color: #fff;
     padding: 1rem 0;
+    height: 100%;
 }
 
 .attribution a {
@@ -113,7 +114,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
 }
 
 .stat-container{
@@ -134,25 +135,14 @@ body{
 .bold-text{
     color: var(--dark-desaturated-blue);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 0.5rem;
 }
 
 
-
-@media (max-width: 470px){
-    .bold-text{
-        font-size: 18px;
-    }
-}
-
 @media (max-width: 375px){
     body{
-        background-position: left calc(100% - 52vw) top calc(90% + -40vh),
-                             right calc(100% - 52vw) bottom calc(100% + -51vh);
-    }
-
-    .bold-text{
-        font-size: 18px;
+        background-position: left calc(100% - 39vw) top calc(90% + -55vh),
+                             right calc(100% - 52vw) bottom calc(100% + -39vh);
     }
 }
